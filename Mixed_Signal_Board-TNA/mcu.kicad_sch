@@ -8492,7 +8492,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -12122,7 +12121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_CommonMode_PulseElectronics_PH9455x105NL_1"
+		(property "Footprint" "CMF3216F-900-2P-T:CMF3216F-900-2P-T"
 			(at 232.41 144.78 0)
 			(effects
 				(font

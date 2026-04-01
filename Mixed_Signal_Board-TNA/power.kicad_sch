@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "cbfd1b68-a66d-4cd6-a4b7-38a96345d8c5")
+	(uuid "4d78786c-38ba-4224-94a8-6029176ccfb6")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1459,6 +1459,18 @@
 		)
 		(uuid "08ba9e4c-6c96-4576-be5b-b0aad206dcf5")
 	)
+	(text "Rules of Thumb:\n"
+		(exclude_from_sim no)
+		(at 216.154 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "0eb392cf-b2ff-4651-84a3-13c098194598")
+	)
 	(text "P=I^2/R\nP(R)>1/8W"
 		(exclude_from_sim no)
 		(at 65.532 57.912 0)
@@ -1479,6 +1491,17 @@
 			)
 		)
 		(uuid "150d6189-4150-4ecd-b54d-e37ac14ee187")
+	)
+	(text "- Small  0.45mm pad, 0.25mm drill\n- Medium 0.7mm pad, 0.3mm drill (Usually)\n- Large  0.8mm pad, 0.4mm drill"
+		(exclude_from_sim no)
+		(at 209.804 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "167ac95d-c699-4cd1-8558-fad3c8d84d0b")
 	)
 	(text "Note: \nHT7533-1 C Spec: >= 10u\nDue to voltage derating, ~+-20%\nSpec Up: 22u\nHence, 22u*0.2=4.4u -> 4.4V \nEffective Cap, 22u-4.4=17.6u \nAlso DC Bias reduces E.Cap, C = eA/d\nwhere e is permittivity of dielectric\ne decreases w applied DC E.Field, C decrease"
 		(exclude_from_sim no)
@@ -1537,6 +1560,17 @@
 			)
 		)
 		(uuid "5578faea-7cad-4321-b3da-361864a75240")
+	)
+	(text "- Signals flow in closed loops\n- Signal energy travels in dielectric material\n- Signals in kHz range, return current will be \n  directly underneath the forward current trace\n- Better with low impedance return path\n- Stitching Vias"
+		(exclude_from_sim no)
+		(at 207.772 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e74bc82-fac0-4993-9def-b213319ea4b9")
 	)
 	(text "[3]"
 		(exclude_from_sim no)
@@ -1625,6 +1659,19 @@
 		)
 		(uuid "86c3cd98-1728-42a4-89e1-1cb69d381ef7")
 	)
+	(text "Via Recommendation"
+		(exclude_from_sim no)
+		(at 209.296 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "87640336-8faa-440e-a3f2-59630b10193e")
+	)
 	(text "Recommended:\n- 0402, 0603, 0805 onwards\n- SOT Packages"
 		(exclude_from_sim no)
 		(at 169.418 41.148 0)
@@ -1636,6 +1683,17 @@
 			(justify left)
 		)
 		(uuid "8da22e8c-6716-41b0-bbc4-3f0eda4bbad5")
+	)
+	(text " - Trace Length vs Rise Time\n - l_trace >= (t_r/2)*v_propagation\n - where t_r = 10-90% rise/fall time\n - v_propagation ~6in/ns in FR4 \n - minimise reflections\n - Trace Impedance, Z_o=sqrt(L/C)"
+		(exclude_from_sim no)
+		(at 207.264 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ecc4578-ed52-4307-86db-0a65fb808386")
 	)
 	(text "100mA max"
 		(exclude_from_sim no)
@@ -1730,6 +1788,17 @@
 		)
 		(uuid "c8417934-fb27-451a-8c8f-4aeadaaa2c05")
 	)
+	(text "- 0.5mm for Power\n- 0.3mm for Signal\n- Spacing 3 x Dielectric Thickness\n- Always Minimize Length\n- Maximise Spacing"
+		(exclude_from_sim no)
+		(at 208.026 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d152068a-ed0d-49b9-b0fa-65a1f2f6f9b0")
+	)
 	(text "Decoupling Cap"
 		(exclude_from_sim no)
 		(at 230.124 40.894 0)
@@ -1754,6 +1823,18 @@
 		)
 		(uuid "dd8aa242-90e6-4b74-b2c7-e1d05c9e319f")
 	)
+	(text "PCB Facts:\n"
+		(exclude_from_sim no)
+		(at 213.106 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ddb4f7b9-bbbd-44a3-867e-d5bbec6aad51")
+	)
 	(text "DCR=0R15\n"
 		(exclude_from_sim no)
 		(at 25.654 78.994 0)
@@ -1775,6 +1856,18 @@
 			(justify left)
 		)
 		(uuid "f63ec340-0132-4fc4-900f-424c00fd3764")
+	)
+	(text "Controlled Impedances:"
+		(exclude_from_sim no)
+		(at 219.964 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f8243892-c202-413d-8c1d-5d7dc19322c9")
 	)
 	(text "[1] Power"
 		(exclude_from_sim no)
@@ -2886,7 +2979,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -3097,7 +3189,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4047,7 +4138,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
