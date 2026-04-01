@@ -1,0 +1,9 @@
+Manufacturer=Amphenol RF
+PartNumber=031-5640-1010
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=4.2
+Released=2024-05-15 04:16:45
+Downloaded=2026-04-01 04:49:56
+3D=Y

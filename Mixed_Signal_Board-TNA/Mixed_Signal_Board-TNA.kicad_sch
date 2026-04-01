@@ -1,0 +1,247 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d05ddfb1-06b1-45ea-8980-d307135197e9")
+	(paper "A4")
+	(title_block
+		(title "Mixed Signal PCB")
+		(date "2026-03-27")
+		(rev "1")
+		(company "NIL")
+	)
+	(lib_symbols)
+	(text "[2] MCU"
+		(exclude_from_sim no)
+		(at 173.99 34.036 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "4333e442-33f5-4657-9a68-0f47f1f22ecc")
+	)
+	(text "[4] DAC"
+		(exclude_from_sim no)
+		(at 173.99 97.79 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "4aee1087-0bec-492a-8126-d36a391a8cab")
+	)
+	(text "[3] ADC"
+		(exclude_from_sim no)
+		(at 78.74 97.79 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "846481e9-dbf4-418d-b198-5a23e555c57e")
+	)
+	(text "Mixed Signal PCB"
+		(exclude_from_sim no)
+		(at 44.45 19.812 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "9b34a443-330d-4e99-b042-394b709266e2")
+	)
+	(text "[1] Power"
+		(exclude_from_sim no)
+		(at 80.518 32.258 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "a0c91d50-18a6-42ea-817e-f164b6ed4480")
+	)
+	(sheet
+		(at 68.58 104.14)
+		(size 62.23 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1cefe51e-a01b-4302-8bd4-4419043173fd")
+		(property "Sheetname" "ADC"
+			(at 68.58 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 68.58 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed_Signal_Board-TNA"
+				(path "/d05ddfb1-06b1-45ea-8980-d307135197e9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 104.14)
+		(size 62.23 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b579a11-4aea-4cce-a8bb-e86df17b0f9c")
+		(property "Sheetname" "DAC"
+			(at 163.322 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dac.kicad_sch"
+			(at 163.83 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed_Signal_Board-TNA"
+				(path "/d05ddfb1-06b1-45ea-8980-d307135197e9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 40.64)
+		(size 62.23 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bcc7caec-a935-4918-8d0e-6179c407d380")
+		(property "Sheetname" "MCU"
+			(at 162.56 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 162.56 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed_Signal_Board-TNA"
+				(path "/d05ddfb1-06b1-45ea-8980-d307135197e9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 39.37)
+		(size 62.23 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb02aaf2-246b-4f24-a15f-6af52070c8fc")
+		(property "Sheetname" "Power"
+			(at 67.31 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 67.31 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed_Signal_Board-TNA"
+				(path "/d05ddfb1-06b1-45ea-8980-d307135197e9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

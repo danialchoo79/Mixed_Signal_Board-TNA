@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PESD3V3L1BA_115'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "PESD3V3L1BA,115" (!) = "", "SOD2512X110N", "Small Outline Diode", "771-PESD3V3L1BA-T/R", "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L1BA115?qs=LOCUfHb8d9tfcQwAsqvzKg%3D%3D", "PESD3V3L1BA - Low capacitance bidirectional ESD protection diode in SOD323", "https://assets.nexperia.com/documents/data-sheet/PESDXL1BA_SER.pdf", "1.1 mm"
+END_PART
+
+END.

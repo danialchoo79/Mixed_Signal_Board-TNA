@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '031_5640_1010'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol RF", "031-5640-1010" (!) = "", "03156401010", "Other", "523-31-5640-1010", "https://www.mouser.co.uk/ProductDetail/Amphenol-RF/031-5640-1010?qs=py4qCovljJ8AWoJP%2FInlhw%3D%3D", "BNC Connector Jack, Female Socket 50 Ohms Panel Mount, Through Hole, Right Angle Solder", "https://www.amphenolrf.com/library/download/link/link_id/594408/parent/031-5640-1010/", "15.9 mm"
+END_PART
+
+END.

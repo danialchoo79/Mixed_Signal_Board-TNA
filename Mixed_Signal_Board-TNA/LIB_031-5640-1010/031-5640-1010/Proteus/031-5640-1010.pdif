@@ -1,0 +1,169 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "031-5640-1010"
+   (description "BNC Connector Jack, Female Socket 50 Ohms Panel Mount, Through Hole, Right Angle Solder")
+   (family "CON")
+   (package "03156401010")
+   (attribute "Datasheet Link" "https://www.amphenolrf.com/library/download/link/link_id/594408/parent/031-5640-1010/")
+   (attribute "Geometry.Height" "15.9mm")
+   (attribute "Mouser Part Number" "523-31-5640-1010")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-RF/031-5640-1010?qs=py4qCovljJ8AWoJP%2FInlhw%3D%3D")
+   (attribute "Manufacturer_Name" "Amphenol RF")
+   (attribute "Manufacturer_Part_Number" "031-5640-1010")
+   (gate
+    (symbol "031-5640-1010")
+    (pin "SIGNAL" 1 PS)
+    (pin "GROUND" 2 PS)
+    (pin "MH1" 3 PS)
+    (pin "MH2" 4 PS)
+   )
+  )
+  (symbol "031-5640-1010"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "03156401010"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.2 -1.67)
+      (pt 7.2 -1.67)
+      (pt 7.2 12.33)
+      (pt -7.2 12.33)
+      (pt -7.2 -1.67))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -7.2 -1.67)
+      (pt 7.2 -1.67)
+      (pt 7.2 12.33)
+      (pt -7.2 12.33)
+      (pt -7.2 -1.67))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.2 34.23)
+      (pt 8.2 34.23)
+      (pt 8.2 -2.67)
+      (pt -8.2 -2.67)
+      (pt -8.2 34.23))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -6 12.33)
+      (pt -6 21.23)
+      (pt 6 21.23)
+      (pt 6 12.33))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -5 21.23)
+      (pt -5 33.23)
+      (pt 5 33.23)
+      (pt 5 21.23))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6 12.33)
+      (pt -6 21.23)
+      (pt 6 21.23)
+      (pt 6 12.33))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5 21.23)
+      (pt -5 33.23)
+      (pt 5 33.23)
+      (pt 5 21.23))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 -2.1)
+      (arc (pt 0.000 -2.100) (pt -0.050 -2.200) (pt 0.050 -2.100) (start 180.0) (sweep 90.0))
+      (pt 0 -2.2)
+      (arc (pt 0.000 -2.200) (pt -0.050 -2.200) (pt 0.050 -2.100) (start 180.0) (sweep -90.0))
+      (pt 0 -2.1))))
+   (leg 1 (pt 0.000 -0.000) (padstack 1))
+   (leg 2 (pt -2.540 -0.000) (padstack 2))
+   (leg 3 (pt 5.080 5.080) (padstack 0))
+   (leg 4 (pt -5.080 5.080) (padstack 0))
+   (padstack 0
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (round 3.000))
+    (pad (layer INNER) (round 3.000))
+    (pad (layer BCOP) (round 3.000))
+   )
+   (padstack 1
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (square 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (square 1.400))
+   )
+   (padstack 2
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (round 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (round 1.400))
+   )
+   (model "031-5640-1010.stp"
+    (euler -90 180 90)
+    (offset 0 30.399999618530273 8.119999885559082)
+   )
+  )
+ )
+)

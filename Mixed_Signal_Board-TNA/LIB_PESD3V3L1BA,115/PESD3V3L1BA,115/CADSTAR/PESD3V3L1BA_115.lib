@@ -1,0 +1,16 @@
+.PESD3V3L1BA_115 :1 ;PESD3V3L1BA - Low capacitance bidirectional ESD protection diode in SOD323
+SOD2512X110N
+*STM D
+*NGS
+*PLB 1="K1" 2="K2"
+*MXP 2
+*DFN PESD3V3L1BA_115
+~!Mouser Part Number (771-PESD3V3L1BA-T/R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L1BA115?qs=LOCUfHb8d9tfcQwAsqvzKg%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PESD3V3L1BA,115)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/PESDXL1BA_SER.pdf)
+~!Height (1.1mm)
+~!3D_Model (PESD3V3L1BA,115)
+PESD3V3L1BA_115
+1.1!U 2.1!U 

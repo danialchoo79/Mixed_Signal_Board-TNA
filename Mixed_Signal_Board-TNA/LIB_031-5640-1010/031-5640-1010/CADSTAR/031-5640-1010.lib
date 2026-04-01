@@ -1,0 +1,16 @@
+.031-5640-1010 :1 ;BNC Connector Jack, Female Socket 50 Ohms Panel Mount, Through Hole, Right Angle Solder
+"03156401010"
+*STM J
+*NGS
+*PLB 1="SIGNAL" 2="GROUND" 3="MH1" 4="MH2"
+*MXP 4
+*DFN 031-5640-1010
+~!Mouser Part Number (523-31-5640-1010)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Amphenol-RF/031-5640-1010?qs=py4qCovljJ8AWoJP%2FInlhw%3D%3D)
+~!Manufacturer_Name (Amphenol RF)
+~!Manufacturer_Part_Number (031-5640-1010)
+~!Link Datasheet (https://www.amphenolrf.com/library/download/link/link_id/594408/parent/031-5640-1010/)
+~!Height (15.9mm)
+~!3D_Model (031-5640-1010)
+"031-5640-1010"
+1.1!U 2.1!U 3.1!U 4.1!U 
