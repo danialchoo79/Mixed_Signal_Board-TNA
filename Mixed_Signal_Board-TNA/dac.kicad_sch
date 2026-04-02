@@ -1749,7 +1749,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 82.55) (xy 113.03 82.55)
+			(xy 110.49 82.55) (xy 111.76 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2299,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 82.55) (xy 121.92 82.55)
+			(xy 119.38 82.55) (xy 121.92 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4370,7 +4370,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 116.84 82.55 270)
+		(at 115.57 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4378,7 +4378,7 @@
 		(dnp no)
 		(uuid "f91cd4ac-6cc9-4545-8929-17de5248bd6f")
 		(property "Reference" "R404"
-			(at 116.84 77.978 90)
+			(at 115.57 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4386,7 @@
 			)
 		)
 		(property "Value" "12k"
-			(at 116.84 80.264 90)
+			(at 115.57 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4394,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 116.586 83.566 90)
+			(at 115.316 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4403,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 82.55 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4412,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 116.84 82.55 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

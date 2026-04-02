@@ -7551,16 +7551,6 @@
 		)
 		(uuid "ff3477ab-01ac-46ce-a1ee-b0b17e269da0")
 	)
-	(label "R"
-		(at 44.45 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e2c6da3-8666-44b8-9c68-5f5e3295efb8")
-	)
 	(label "USB_CMC_D-"
 		(at 209.55 142.24 0)
 		(effects
@@ -7596,16 +7586,6 @@
 			(justify right bottom)
 		)
 		(uuid "29a27693-1dc0-47a7-a91d-6f24d547a6db")
-	)
-	(label "CONN_SWDIO"
-		(at 118.11 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a46f6d9-59be-4fb1-8d5c-4912b0d1499b")
 	)
 	(label "USB_CONN_D+"
 		(at 257.81 62.23 180)
@@ -7654,16 +7634,6 @@
 			(justify left bottom)
 		)
 		(uuid "35d0f40f-8af4-433b-8362-496a8ea3494c")
-	)
-	(label "G"
-		(at 44.45 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36743863-1e80-423a-87b1-a7c10109dd02")
 	)
 	(label "HSE_IN"
 		(at 71.12 124.46 0)
@@ -7773,16 +7743,6 @@
 		)
 		(uuid "6be4af23-b1a3-4775-be35-a5fe1e8347f6")
 	)
-	(label "B"
-		(at 44.45 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7198f187-e80d-4d3d-8397-df334e5aef95")
-	)
 	(label "USB_CMC_D+"
 		(at 209.55 147.32 0)
 		(effects
@@ -7855,16 +7815,6 @@
 		)
 		(uuid "91f99cc2-9be0-401c-9d6b-4f42bb3df12e")
 	)
-	(label "CONN_NRST"
-		(at 118.11 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "987d9b2c-8b56-46ce-80f0-f677c58d1656")
-	)
 	(label "USB_D+"
 		(at 255.27 147.32 180)
 		(effects
@@ -7900,16 +7850,6 @@
 			(justify right bottom)
 		)
 		(uuid "b46a84fe-86bb-4b26-97cc-724e7a865638")
-	)
-	(label "CONN_SWO"
-		(at 118.11 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3e6f791-671f-4584-aa62-3c6e20d3d1dd")
 	)
 	(label "TIM4_CH1"
 		(at 21.59 170.18 0)
@@ -7982,16 +7922,6 @@
 			(justify left bottom)
 		)
 		(uuid "f6b509c2-fad1-4ba3-9af8-eda846249c79")
-	)
-	(label "CONN_SWCLK"
-		(at 118.11 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9178fae-0a8a-47bf-931d-113d175170ae")
 	)
 	(global_label "SPI2_NSS"
 		(shape input)
@@ -11363,7 +11293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 90.17 189.23 0)
 			(effects
 				(font
@@ -12537,7 +12467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 214.63 111.76 0)
 			(effects
 				(font
