@@ -7561,6 +7561,16 @@
 		)
 		(uuid "0e2c6da3-8666-44b8-9c68-5f5e3295efb8")
 	)
+	(label "BOOT0"
+		(at 73.66 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11db64d1-544e-44dc-9711-ca337a442883")
+	)
 	(label "USB_CMC_D-"
 		(at 209.55 142.24 0)
 		(effects
